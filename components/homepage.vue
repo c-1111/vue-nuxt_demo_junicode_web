@@ -15,9 +15,9 @@
                     </nav>
                 </div>
                 <div class="font_showcase">
-                    <div class="display_text_container relative h-fit flex justify-center text-9xl p-8 whitespace-nowrap">
-                        <div class="text1_container text-[4rem] leading-[7.8rem] w-full top-0 right-80 mx-auto"
-                            :style="textStyles('PIXER-MODULAR-VF', slider1Value, slider2Value)">Junicode modular</div>
+                    <div class="display_text_container relative h-fit flex justify-center text-9xl py-20 whitespace-nowrap">
+                        <div class="text1_container text-[14rem] leading-[7.8rem] w-full top-0 right-80 mx-auto"
+                            :style="textStyles('PIXER-MODULAR-VF', slider1Value, slider2Value)">Junicode</div>
                     </div>
                     <div class="sliders_container flex flex-col gap-8">
                         <div class="slider_1 w-60">
@@ -33,7 +33,7 @@
                         </div>
 
                         <div class="slider_2 w-60">
-                            <div class="slider_title">Eje de Variacion 2</div>
+                            <div class="slider_title">Deviation (+-)</div>
                             <div class="slider_2_container">
                                 <input type="range" min="-100" max="100" class="slider" id="slider2" v-model="slider2Value">
                             </div>
@@ -56,7 +56,7 @@
 
 
 
-                <div class="expl_box">
+                <div class="expl_box mt-32">
                     <div class="w-[67ch] min-h-[12rem]">Este proyecto no nace con el fin de componer una tipografía a base de módulos sino con la idea de descomponer cualquier tipografía en pequeñas secciones de igual forma y tamaño para después reconfortar la tipografía inicial con la capacidad de ser variable tratando de forma individual cada uno de los módulos obtenidos en la división. Mi intención proponiendo este proyecto no es el de construir una tipografía desde cero o derivada de una existente, es generar un software capaz de dado un archivo de fuente estandarizado (ttf, otf…) hacer uso de sus formas como contornos a rellenar o dividir y obtener entonces la versión modular de la tipografía inicial con la capacidad de presentar todos los ejes de variación que se desee partiendo de los módulos en los que dividirla. 
 
 
@@ -151,7 +151,7 @@ export default {
 .slider
   font-family: "PIXER-VARIABLE-VF"
   appearance: none
-  height: 20px
+  height: 8px
   width: 100% 
   outline: solid 1px
   margin: 10px 0
@@ -161,10 +161,8 @@ export default {
   &::-webkit-slider-thumb
     -webkit-appearance: none
     appearance: none
-    width: 40px
-    height: 40px
-    background: black
-    cursor: pointer
+    width: 20px
+    height: 20px
     border-radius: 0
 
   &::-moz-range-thumb
@@ -174,6 +172,10 @@ export default {
     cursor: pointer
     border-radius: 0
 
+
+.slider_title
+    font-weight: bold
+    font-size: 2rem
 .text1_container
   font-family: "PIXER-MODULAR-VF"
 
