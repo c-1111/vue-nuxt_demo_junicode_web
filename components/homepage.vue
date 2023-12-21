@@ -56,7 +56,7 @@
 
 
 
-                <div class="expl_box mt-32">
+                <div class="expl_box mt-24">
                     <div class="w-[67ch] min-h-[12rem]">Este proyecto no nace con el fin de componer una tipografía a base de módulos sino con la idea de descomponer cualquier tipografía en pequeñas secciones de igual forma y tamaño para después reconfortar la tipografía inicial con la capacidad de ser variable tratando de forma individual cada uno de los módulos obtenidos en la división. Mi intención proponiendo este proyecto no es el de construir una tipografía desde cero o derivada de una existente, es generar un software capaz de dado un archivo de fuente estandarizado (ttf, otf…) hacer uso de sus formas como contornos a rellenar o dividir y obtener entonces la versión modular de la tipografía inicial con la capacidad de presentar todos los ejes de variación que se desee partiendo de los módulos en los que dividirla. 
 
 
@@ -186,7 +186,7 @@ export default {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
   border-radius: 8px
   width: 100%
-  height: 200px
+  height: 400px
   overflow-y: scroll
   overflow-x: hidden
 
