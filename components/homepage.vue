@@ -21,7 +21,7 @@
                     </div>
                     <div class="sliders_container flex flex-col gap-8">
                         <div class="slider_1 w-60">
-                            <div class="slider_title w-full">Eje de Variacion 1</div>
+                            <div class="slider_title w-full">Square</div>
                             <div class="slider_1_container">
                                 <input type="range" min="0" max="100" class="slider" id="slider1" v-model="slider1Value">
                             </div>
