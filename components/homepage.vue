@@ -1,10 +1,10 @@
 <template>
-    <div class="full">
-        <div class="app w-full px-20 pt-4 flex flex-row justify-between">
+    <div class="full px-20">
+        <div class="app w-full pt-4 flex flex-row justify-between">
             <div class="left_col_main">
                 <div class="cont1_left ">
                     <nav class="navbar max-w-4xl ">
-                        <div class="nav_top_deco w-full bg-black h-1 "></div>
+                        <div class="nav_top_deco w-full bg-black h-[.1rem] "></div>
                         <ul class="nav_bottom flex flex-row w-full justify-between">
                             <div class="li">Modular</div>
                             <div class="li">Serif</div>
@@ -95,6 +95,12 @@ Como futura línea y más interesante pongo la idea de la que nace el proyecto, 
 </div>
                 </div>
             </div>
+        </div>
+        <div class="glyphs_gallery mt-10">
+            Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Hh Ii Jj Kk Ll  Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz <br>   
+            0 1 2 3 4 5 6 7 8 9  <br>
+            Áá Éé Íí Óó Úú   ÄÂ Ç <br>
+            @ € ¥ $      + - =      ( ) [ ]     .: ,; ¿ ? ¡ ! _ / * ^ º 
         </div>
     </div>
 </template>
